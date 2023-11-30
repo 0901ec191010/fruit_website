@@ -1,0 +1,48 @@
+
+
+.box{
+      background-color: lightslategray;
+      text-align: center;
+      height: 400px;
+      width: 400px;
+      align-items: center;
+          margin-top: 14% ;
+          margin-left: 40%;
+          border-radius: 40px;
+}
+
+.inputData{
+      height: 10px;
+      width: 20px;
+      text-align: center;
+      margin: 110px;
+}
+
+.wave{
+      opacity: 0.3;
+      position: absolute;
+      top: 120%;
+      left: 50%;
+      background: white;
+      width: 50rem;
+      height: 50rem;
+      margin-left: -25rem;
+      margin-top: -20rem;
+      transform-origin:50% 48%;
+      border-radius: 43%;
+      animation: drift 3000ms infinite linear;
+      z-index: 1;
+}
+
+.wave-three{
+      animation: drift 5000ms infinite linear;
+      z-index: 2 !important;
+      opacity: 0.2;
+
+}
+
+.wave-two {
+      animation: drift 7000ms infinite linear;
+      opacity: 0.1;
+      z-index: 3 !important;
+}
